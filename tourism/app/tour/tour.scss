@@ -4,6 +4,13 @@
     display: flex;
     flex-direction: column;
     margin-top: 40px;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    .pregled-tura{
+        display: flex;
+        gap: 20px;
+    }
     table{
         border-collapse: collapse;
         th,td{
@@ -14,5 +21,34 @@
         td{
             background-color: #fff;
         }
+    }
+    >div{   
+        form{
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #333;
+            >div{
+                display: flex;
+                justify-content: space-between;
+                padding: 5px;
+            }
+            input{
+                border: none;
+                border-bottom: 1px solid #333;
+            }
+        }
+        fieldset{
+            padding: 10px;
+        }
+        button{
+            margin-top: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+    }
+    .tour-details{
+        width: 300px;
+        padding: 10px;
     }
 }

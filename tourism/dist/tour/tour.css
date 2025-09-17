@@ -66,6 +66,13 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 20px;
+}
+.tour-section .pregled-tura {
+  display: flex;
+  gap: 20px;
 }
 .tour-section table {
   border-collapse: collapse;
@@ -77,6 +84,32 @@ body {
 }
 .tour-section table td {
   background-color: #fff;
+}
+.tour-section > div form {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #333;
+}
+.tour-section > div form > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.tour-section > div form input {
+  border: none;
+  border-bottom: 1px solid #333;
+}
+.tour-section > div fieldset {
+  padding: 10px;
+}
+.tour-section > div button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.tour-section .tour-details {
+  width: 300px;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=tour.css.map */
