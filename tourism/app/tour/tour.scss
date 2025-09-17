@@ -1,0 +1,18 @@
+@use '../styles.scss';
+
+.tour-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    table{
+        border-collapse: collapse;
+        th,td{
+            border: 1px solid #333;
+            padding: 10px;
+            min-width: 150px;
+        }
+        td{
+            background-color: #fff;
+        }
+    }
+}

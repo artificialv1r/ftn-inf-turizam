@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TourApp</title>
-    <link rel="stylesheet" href="../dist/styles.css" />
+    <link rel="stylesheet" href="../../dist/tour/tour.css" />
   </head>
   <body>
     <nav class="navbar">
@@ -16,12 +16,20 @@
       </ul>
     </nav>
 
-    <section class="site-description">
-      <h2>Dobrodošli na TourApp!</h2>
-      <p>
-        Naša platforma omogućava jednostavno pretragu tura i restorana na raznim
-        lokacijama.
-      </p>
+    <section class="tour-section">
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>Naziv</th>
+              <th>Distanca [km]</th>
+            </tr>
+          </thead>
+          <tbody id="tours-body"></tbody>
+        </table>
+      </div>
+      <div class="tour-details"></div>
     </section>
+    <script src="../tour/tour.js"></script>
   </body>
 </html>
